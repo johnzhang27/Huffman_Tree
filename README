@@ -1,0 +1,28 @@
+Name: YongQuan Zhang
+ID #: 1515873
+CMPUT 274 Fa19
+
+Assignment 1: Huffman Coding
+
+
+Included Files:
+
+	- util.py: Contains the five functions read_tree(), decode_byte(), write_tree(), 		   compress(), and decompress().
+
+	- README
+
+Accessorise:
+	*None
+
+Wiring instructions: None needed
+
+Running the code:
+You should put util.py into a file that contains
+- bitio.py
+- compress.py
+- huffman.py
+- webserver.py
+- wwwroot directory
+Go to the wwwroot directory. Open a bash terminal and open the web server using "python3 ../webserver.py". You can then go to the url "http://localhost:8000" to view the webpage and image of Huffman that will appear if the decompressor is functioning properly. Note that the port can be changed by modifying the variable port in webserver.py.
+
+To compress a file, first copy that file over to the wwwroot directory and then move to that directory and type "python3 ../compress.py somefile.ext" where somefile is the name of the file you wish to compress and ext is the extension. Then go to the url "http://localhost:8000/somefile.ext" to view and/or download the decompressed file.
